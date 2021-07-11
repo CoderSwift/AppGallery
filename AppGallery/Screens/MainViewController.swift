@@ -5,6 +5,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var searchBarTextField: UITextField!
     @IBOutlet weak var boxSearchBarView: UIView!
     
+    // New comment
     var photo:[Photo] = []
     var countPage:Int = 0
     var loadingStatus = false
