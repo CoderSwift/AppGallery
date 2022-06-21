@@ -8,6 +8,7 @@ extension UIView {
         self.layer.shadowColor = UIColor.darkGray.cgColor
         self.layer.shadowOffset = CGSize(width: Constants.zeroValue, height: Constants.zeroValue)
         self.layer.shadowOpacity = Constants.shadowOpacityValue
+        
     }
     
     func setCorner(corner:CGFloat){
