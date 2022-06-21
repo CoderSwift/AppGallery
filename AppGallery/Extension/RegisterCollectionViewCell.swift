@@ -10,4 +10,6 @@ public extension UICollectionView {
     func dequeueReusableCell<T: UICollectionViewCell>(with type: T.Type, for indexPath: IndexPath) -> T {
         return self.dequeueReusableCell(withReuseIdentifier:String(describing: type), for: indexPath) as! T
     }
+    
+    
 }
