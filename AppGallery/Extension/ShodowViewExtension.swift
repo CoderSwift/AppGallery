@@ -4,7 +4,7 @@ extension UIView {
     func shodowView(corner:CGFloat) {
         self.clipsToBounds = false
         self.layer.cornerRadius = corner
-        self.layer.shadowRadius = Constants.shadowRadiusValue
+        self.layer.shadowRadius = 10
         self.layer.shadowColor = UIColor.darkGray.cgColor
         self.layer.shadowOffset = CGSize(width: Constants.zeroValue, height: Constants.zeroValue)
         self.layer.shadowOpacity = Constants.shadowOpacityValue
